@@ -171,10 +171,12 @@ a:visited {
     justify-content: flex-end;
     z-index: 2;
     width: max-content;
+    height: max-content;
 }
 
 #PhotoAlexendreCouillon img {
-    max-width: 40vw;
+    max-width: auto;
+    height: max-content;
     height: max-content;
 }
 
@@ -230,7 +232,8 @@ a:visited {
 #premiererangeedestroispremiereimage img {
     width: calc(30rem - 40vw);
     padding: 0;
-    height: max-content;
+    height: auto;
+    margin: 0 !important;
 }
 
 #DeuxièmeRangeeDesTroisPremieresImages img {
